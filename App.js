@@ -9,10 +9,9 @@ const images = [
 ];
 
 function App() {
-    return ( <
-        div >
-        <
-        h1 > Tigger Gallery < /h1>
+    return ( 
+        <div>
+            <h1> Tigger Gallery </h1>
 
         {
             images.map((url, index) => ( <
@@ -20,8 +19,8 @@ function App() {
                 src = { url }
                 width = "250" / >
             ))
-        } <
-        /div>
+        } 
+        </div>
     );
 }
 
